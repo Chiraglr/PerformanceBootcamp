@@ -3,4 +3,4 @@ function delay(duration) {
   while (new Date().getTime() < start + duration) {}
 }
 
-delay(1500);
+delay(100);

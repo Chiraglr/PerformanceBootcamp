@@ -18,8 +18,8 @@ server.use((req, res, next) => {
 });
 
 server.use((req, res, next) => {
-    res.setHeader("Cache-Control", "no-store");
-    // res.setHeader("Cache-Control", "max-age=31536000"); // seconds
+    // res.setHeader("Cache-Control", "no-store");
+    res.setHeader("Cache-Control", "max-age=31536000"); // seconds
     next();
   });
 server.use(express.static("./", { etag: false }));

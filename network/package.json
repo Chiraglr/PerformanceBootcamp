@@ -10,7 +10,7 @@
   "config": {
     "port": 3001,
     "delay": 500,
-    "compress": false
+    "compress": true
   },
   "author": "",
   "license": "ISC",

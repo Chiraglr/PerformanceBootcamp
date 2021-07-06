@@ -9,7 +9,7 @@
   },
   "config": {
     "port": 3001,
-    "js-delay": 0
+    "js-delay": 3000
   },
   "author": "",
   "license": "ISC",
